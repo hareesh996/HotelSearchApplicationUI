@@ -1,0 +1,20 @@
+.searchContainerDashBoard .container{
+     .searchTxtContainer 
+     {
+         padding : 10px 5px 5px 10px;
+         width : 100%;
+     }
+     .sortContainer {
+         float : left;
+        .sortBy{
+            float : left;
+            padding : 5px 30px 5px 5px;
+        }
+     }
+     label {
+        font-weight: 600;
+        margin-bottom: 9px; 
+        padding-right: 10px;
+     }
+}
+
