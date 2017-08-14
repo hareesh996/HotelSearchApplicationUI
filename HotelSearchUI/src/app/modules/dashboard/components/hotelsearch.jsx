@@ -5,7 +5,8 @@ import _ from 'lodash';
 import {connect} from 'react-redux';
 
 const firstLevelFields = [
-    {
+    {   
+        rootDivClassName : "searchText",
         id: "searchText",
         type: "text",
         name: "searchText",
@@ -21,7 +22,7 @@ const secondLevelFields = [
         id: "sortByCountry",
         type: "radio",
         name: "sortBy",
-        label: "country",
+        label: "Country",
         isChecked: true,
         initialValue: "country"
     },
@@ -57,7 +58,7 @@ class HotelSearch extends Component {
                     {_.flatMap(firstLevelFields, this.renderReduxField.bind(this))}
                 </div>
                 <div className="sortContainer">
-                    <div className="sortBy"><label>Sort By</label> </div>
+                    <div className="sortByHeader"><label>Sort By</label></div>
                     <div className="sortContainer">
                         {_.flatMap(secondLevelFields, this.renderReduxField.bind(this))}
                     </div>

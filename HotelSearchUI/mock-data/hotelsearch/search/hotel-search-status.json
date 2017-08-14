@@ -1,0 +1,9 @@
+{
+    "data" : {
+        "hotelCounts" : 200,
+        "totalLikes" : 200,
+        "maxPrice" : 4000,
+        "minPrice" : 2000,
+        "avgRating" : 4.0
+    }
+}

@@ -7,7 +7,7 @@ export default class ApplicationFooter extends Component{
         return (
             <footer className="footer">
                 <div className="footerText">
-                   <h2>@c Copy right Strikers Developer</h2>
+                   <h2>@Copyrights Strikers Developer</h2>
                 </div>
             </footer>
         )

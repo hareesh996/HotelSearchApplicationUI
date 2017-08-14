@@ -43,32 +43,25 @@ class HotelContent extends Component{
     }
 
     render(){
-        const {name,totalLikes,link,location,amount} = this.props.hotelData;
-        return( <div>
-                <h2>{name}</h2>
-                <div>
-                    <label>Locality : </label> <p>{location.line1} {location.line2}, {location.city.name} {location.country.name} </p>
+        const {name,totalLikes,link,img,location,amount} = this.props.hotelData;
+        return( <div className="hotelContent row col-md-5">
+                <div className="hotelBody col-md-6">
+                    <div className="hotelHeader">
+                        <h3>{name}</h3>
+                        <div className="hotelLocality">
+                            <p>{location.line1}, {location.line2} {location.city.name}, {location.country.name}</p>
+                        </div>
+                    </div>
+                    <div className="hotelDetails">
+                        <div><label>Link :</label> <a href={link}>{link}</a></div>
+                        <div><label>Actual Price : </label> <span>{amount.actualPrice} {amount.currency.currencyName}</span></div>
+                        <div><label>Final Price :  </label> <span>{amount.discountedPrice} {amount.currency.currencyName}</span></div>
+                        <div><label>Discount :  </label> <span>{amount.discountPercentage}%</span></div>
+                        <div><label>Total Likes :  </label> <span>{totalLikes}%</span></div>
+                    </div>
                 </div>
-                <div>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td>Link : <a href={link}>{link}</a></td>
-                            </tr>
-                            <tr>
-                                <td>Actual Price: {amount.actualPrice} {amount.currency.currencyName}</td>
-                            </tr>
-                            <tr>
-                                <td>Final Price : {amount.discountedPrice} {amount.currency.currencyName}</td>
-                            </tr>
-                            <tr>
-                                <td>Discount : {amount.discountPercentage}%</td>
-                            </tr>
-                            <tr>
-                                <td>Total Likes : {totalLikes}</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div className="hotelImg col-md-6" >
+                        <img src={img}/>
                 </div>
             </div>
         );

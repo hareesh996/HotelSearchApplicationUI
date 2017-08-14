@@ -81,8 +81,8 @@ class FormField extends Component {
         if (!Utils.isEmpty(label)) {
             return (
                 <div>
-                    <label>{label}</label>
                     <input type="radio" {...reduxProps} name={name} value={initialValue} id={id} className={className} />
+                    <label>{label}</label>
                 </div>
             );
         }

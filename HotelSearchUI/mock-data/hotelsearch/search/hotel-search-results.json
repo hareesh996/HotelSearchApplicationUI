@@ -1,0 +1,220 @@
+{
+    "data": [
+        {
+            "hotelId": "HA123",
+            "name": "Royal Orchid",
+            "totalLikes": 10,
+            "img" : "http://localhost:90/hotelsearch/search/Royal_Orchid_2.jpg",
+            "link": "http://www.royalorchidhotels.com",
+            "location": {
+                "line1": "Rail Way Station road",
+                "line2": "Near Ambedkar Circle",
+                "city": {
+                    "name": "Hospet",
+                    "value": "HPT"
+                },
+                "country": {
+                    "name": "India",
+                    "value": "IND"
+                }
+            },
+            "amount": {
+                "actualPrice": 2000,
+                "discountedPrice": 1800,
+                "discountPercentage": 10,
+                "currency": {
+                    "currencyName": "INR"
+                }
+            }
+        },
+        {
+            "hotelId": "HA125",
+            "name": "Royal Orchid",
+            "totalLikes": 10,
+            "img" : "http://localhost:90/hotelsearch/search/Royal_Orchid_2.jpg",
+            "link": "http://www.royalorchidhotels.com",
+            "location": {
+                "line1": "Rail Way Station road",
+                "line2": "Near Ambedkar Circle",
+                "city": {
+                    "name": "Hospet",
+                    "value": "HPT"
+                },
+                "country": {
+                    "name": "India",
+                    "value": "IND"
+                }
+            },
+            "amount": {
+                "actualPrice": 2000,
+                "discountedPrice": 1800,
+                "discountPercentage": 10,
+                "currency": {
+                    "currencyName": "INR"
+                }
+            }
+        },
+         {
+            "hotelId": "HA123",
+            "name": "Royal Orchid",
+            "totalLikes": 10,
+            "img" : "http://localhost:90/hotelsearch/search/Royal_Orchid_2.jpg",
+            "link": "http://www.royalorchidhotels.com",
+            "location": {
+                "line1": "Rail Way Station road",
+                "line2": "Near Ambedkar Circle",
+                "city": {
+                    "name": "Hospet",
+                    "value": "HPT"
+                },
+                "country": {
+                    "name": "India",
+                    "value": "IND"
+                }
+            },
+            "amount": {
+                "actualPrice": 2000,
+                "discountedPrice": 1800,
+                "discountPercentage": 10,
+                "currency": {
+                    "currencyName": "INR"
+                }
+            }
+        },
+        {
+            "hotelId": "HA125",
+            "name": "Royal Orchid",
+            "totalLikes": 10,
+            "img" : "http://localhost:90/hotelsearch/search/Royal_Orchid_2.jpg",
+            "link": "http://www.royalorchidhotels.com",
+            "location": {
+                "line1": "Rail Way Station road",
+                "line2": "Near Ambedkar Circle",
+                "city": {
+                    "name": "Hospet",
+                    "value": "HPT"
+                },
+                "country": {
+                    "name": "India",
+                    "value": "IND"
+                }
+            },
+            "amount": {
+                "actualPrice": 2000,
+                "discountedPrice": 1800,
+                "discountPercentage": 10,
+                "currency": {
+                    "currencyName": "INR"
+                }
+            }
+        },
+         {
+            "hotelId": "HA123",
+            "name": "Royal Orchid",
+            "totalLikes": 10,
+            "img" : "http://localhost:90/hotelsearch/search/Royal_Orchid_2.jpg",
+            "link": "http://www.royalorchidhotels.com",
+            "location": {
+                "line1": "Rail Way Station road",
+                "line2": "Near Ambedkar Circle",
+                "city": {
+                    "name": "Hospet",
+                    "value": "HPT"
+                },
+                "country": {
+                    "name": "India",
+                    "value": "IND"
+                }
+            },
+            "amount": {
+                "actualPrice": 2000,
+                "discountedPrice": 1800,
+                "discountPercentage": 10,
+                "currency": {
+                    "currencyName": "INR"
+                }
+            }
+        },
+        {
+            "hotelId": "HA125",
+            "name": "Royal Orchid",
+            "totalLikes": 10,
+            "img" : "http://localhost:90/hotelsearch/search/Royal_Orchid_2.jpg",
+            "link": "http://www.royalorchidhotels.com",
+            "location": {
+                "line1": "Rail Way Station road",
+                "line2": "Near Ambedkar Circle",
+                "city": {
+                    "name": "Hospet",
+                    "value": "HPT"
+                },
+                "country": {
+                    "name": "India",
+                    "value": "IND"
+                }
+            },
+            "amount": {
+                "actualPrice": 2000,
+                "discountedPrice": 1800,
+                "discountPercentage": 10,
+                "currency": {
+                    "currencyName": "INR"
+                }
+            }
+        },
+         {
+            "hotelId": "HA123",
+            "name": "Royal Orchid",
+            "totalLikes": 10,
+            "img" : "http://localhost:90/hotelsearch/search/Royal_Orchid_2.jpg",
+            "link": "http://www.royalorchidhotels.com",
+            "location": {
+                "line1": "Rail Way Station road",
+                "line2": "Near Ambedkar Circle",
+                "city": {
+                    "name": "Hospet",
+                    "value": "HPT"
+                },
+                "country": {
+                    "name": "India",
+                    "value": "IND"
+                }
+            },
+            "amount": {
+                "actualPrice": 2000,
+                "discountedPrice": 1800,
+                "discountPercentage": 10,
+                "currency": {
+                    "currencyName": "INR"
+                }
+            }
+        },
+        {
+            "hotelId": "HA125",
+            "name": "Royal Orchid",
+            "totalLikes": 10,
+            "img" : "http://localhost:90/hotelsearch/search/Royal_Orchid_2.jpg",
+            "link": "http://www.royalorchidhotels.com",
+            "location": {
+                "line1": "Rail Way Station road",
+                "line2": "Near Ambedkar Circle",
+                "city": {
+                    "name": "Hospet",
+                    "value": "HPT"
+                },
+                "country": {
+                    "name": "India",
+                    "value": "IND"
+                }
+            },
+            "amount": {
+                "actualPrice": 2000,
+                "discountedPrice": 1800,
+                "discountPercentage": 10,
+                "currency": {
+                    "currencyName": "INR"
+                }
+            }
+        }
+    ]
+}

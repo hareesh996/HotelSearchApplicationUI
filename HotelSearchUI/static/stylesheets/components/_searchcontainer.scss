@@ -1,14 +1,30 @@
 .searchContainerDashBoard .container{
+    margin: 0;
      .searchTxtContainer 
      {
-         padding : 10px 5px 5px 10px;
+         padding : 10px 0px 0px 0px;
          width : 100%;
+         margin: 10px 0px 20px 0px;
+         input#searchText{
+               width: 400px;
+                height: 40px;
+                border-color: grey;
+                font-size: 10pt;
+                color: #63717f;
+                padding-left: 45px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+            }
      }
      .sortContainer {
          float : left;
         .sortBy{
             float : left;
-            padding : 5px 30px 5px 5px;
+            padding : 0px 30px 5px 5px;
+            input{
+                margin-right : 4px;
+            }
         }
      }
      label {
@@ -16,5 +32,28 @@
         margin-bottom: 9px; 
         padding-right: 10px;
      }
+    .sortByHeader{
+        float: left;
+        font-size: 18px;
+    }
+    .searchText {
+        width: 30%;
+        height: 32px;
+    }
 }
 
+
+.searchStatsContent{
+    display: inline-flex;
+    border-width: 1px;
+    border-style: solid;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    .searchStatsHeader{
+        margin: 5px 15px 0px 0px;
+    }
+    .searchStatsDetails{
+        margin: 15px 0px 0px 0px;
+    }
+}

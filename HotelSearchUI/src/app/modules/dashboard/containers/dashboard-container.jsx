@@ -9,15 +9,15 @@ export default class DashBoardContainer extends Component {
         return (
             <div className="dashBoardContainer container">
                 <div className="row">
-                    <div className="searchContainerDashBoard col-md-5">
+                    <div className="searchContainerDashBoard col-md-6">
                         <SearchContainer />
                     </div>
-                    <div className="searchStatisticsContainerDashBoard col-md-5">
+                    <div className="searchStatisticsContainerDashBoard col-md-6">
                         <SearchStatisticsContainer />
                     </div>
                 </div>
                 <div className="row">
-                    <div className="searchResultsContainer col" >
+                    <div className="searchResultsContainer" >
                         <SearchResultsContainer />
                     </div>  
                 </div>
